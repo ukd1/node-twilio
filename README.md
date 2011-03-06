@@ -2,6 +2,8 @@
 
 A Node.js Twilio helper library.
 
+Note!: Please Read this closely if you are wanting to use this with a demo account
+
 ## Installation
 
 Parts of node-twilio depend on [`express`](http://expressjs.com).
@@ -65,6 +67,10 @@ caller ID, the object will only be able to make outgoing phone calls/SMS. If it'
 a regular incoming number, it will be able to make/receive phone calls and SMS.
 
     var phone = client.getPhoneNumber('+16269239971');
+
+This would be the following if you are using a demo account:
+
+    var phone = client.getPhoneOutgoingPhoneNumber('+16269239971');
 
 We'll now setup our phone number. This goes out and requests the phone number
 instance resource and fills in a data structure with this phone number's details.
