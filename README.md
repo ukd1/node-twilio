@@ -53,7 +53,7 @@ First, we want to instantiate a new Twilo client object.
 The constructor takes three parameters: the account SID and auth token, as well as
 the hostname of the application server. (This is used to construct URIs to give Twilio.)
 
-    var sys = require('sys'),
+    var util = require('util'),
         TwilioClient = require('twilio').Client,
         client = new TwilioClient(ACCOUNT_SID, AUTH_TOKEN, MY_HOSTNAME);
 
