@@ -8,7 +8,7 @@
         "url": "https://github.com/sjwalter/node-twilio.git"
     },
     "dependencies": {
-        "express": "2.x.x"
+        "express": ">= 2.0.0"
     },
     "modules": {
         "client": "./lib/twilio",
