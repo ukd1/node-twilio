@@ -123,7 +123,7 @@ phone.setup(function() {
 });
 ```
 
-To get going beyond the basics, check out [the documentation](https://github.com/sjwalter/node-twilio/wiki).
+To get going beyond the basics, check out [the documentation](https://github.com/ukd1/node-twilio/wiki).
 
 #### Notes
 
