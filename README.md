@@ -1,3 +1,5 @@
+This is many years out of date now - please use the official library instead: https://github.com/twilio/twilio-node
+
 # node-twilio
 
 A Node.js Twilio helper library.
